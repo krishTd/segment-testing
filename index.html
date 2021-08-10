@@ -45,8 +45,9 @@ Email: <input name="email" required="" size="75" type="email"/>
       destination, 
       details: details 
     }; 
+     
     // Placeholder for an Identify call
-    analytics.identify('1234', { 
+    analytics.identify(email, { 
       email: email, 
       name: fullname 
     }); 
